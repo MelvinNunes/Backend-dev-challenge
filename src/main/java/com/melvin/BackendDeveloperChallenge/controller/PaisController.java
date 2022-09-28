@@ -28,6 +28,11 @@ public class PaisController {
         Pais paisById = paisService.getContactById(id);
         return new ResponseEntity<>(paisById, HttpStatus.OK);
     }
+    @GetMapping("/orderBy={value}")
+    public ResponseEntity<List<Pais>> getOrderedBy(@PathVariable("value") String value) {
+        List <Pais> paises = paisService.getPaisesOrderedBy(value);
+        return  new ResponseEntity<>(paises, HttpStatus.OK);
+    }
     @GetMapping("/count")
     public ResponseEntity<Long> getTotal(){
         return new ResponseEntity<>(paisService.getTotalPaises(), HttpStatus.OK);
