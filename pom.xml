@@ -14,7 +14,7 @@
 	<name>BackendDeveloperChallenge</name>
 	<description>Desafio para a vaga de Desenvolvedor Backend na 2iBi</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
