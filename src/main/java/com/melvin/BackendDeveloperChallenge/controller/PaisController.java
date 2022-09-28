@@ -33,8 +33,11 @@ public class PaisController {
     }
     @PostMapping("/add")
     public ResponseEntity<Pais> add(@RequestBody Pais pais){
-        Pais paisCreated = paisService.createPais(pais);
-        return new ResponseEntity<>(paisCreated, HttpStatus.CREATED);
+        if (!pais.getNome().isEmpty() && !pais.getCapital().isEmpty() && !pais.getRegiao().isEmpty() && !pais.getSubRegiao().isEmpty() && !pais.getArea().isEmpty()) {
+            Pais paisCreated = paisService.createPais(pais);
+            return new ResponseEntity<>(paisCreated, HttpStatus.CREATED);
+        }
+        return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
 
     @PutMapping("/update")
