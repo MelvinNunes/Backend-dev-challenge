@@ -13,7 +13,7 @@
 - Está API obedece aos padrões MVC (Model, View e Controller)
 - Foi usada uma base de dados relacional (MySQL)
 
-Para a visualização dos dados de forma mais user-friendly, também desenvolvi uma interface front-end com o Angular (que também pode ser encontrado aqui no meu github pelo link: https://github.com/MelvinNunes/SimpleAddCountry.git ou pela app já em produção:  )
+Para a visualização dos dados de forma mais user-friendly, também desenvolvi uma interface front-end com o Angular (que também pode ser encontrado aqui no meu github pelo link: https://github.com/MelvinNunes/SimpleAddCountry.git ou pela app já em produção:  https://paises-xi.vercel.app/)
 
 # ENDPOINTS
 
