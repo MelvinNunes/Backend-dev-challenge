@@ -1,7 +1,7 @@
-package com.melvin.services;
+package com.melvin.BackendDeveloperChallenge.services;
 
-import com.melvin.model.Pais;
-import com.melvin.repo.PaisRepository;
+import com.melvin.BackendDeveloperChallenge.model.Pais;
+import com.melvin.BackendDeveloperChallenge.repo.PaisRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;

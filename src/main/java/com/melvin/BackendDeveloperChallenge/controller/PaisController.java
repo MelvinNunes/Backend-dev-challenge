@@ -1,7 +1,7 @@
-package com.melvin.controller;
+package com.melvin.BackendDeveloperChallenge.controller;
 
-import com.melvin.model.Pais;
-import com.melvin.services.PaisService;
+import com.melvin.BackendDeveloperChallenge.services.PaisService;
+import com.melvin.BackendDeveloperChallenge.model.Pais;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

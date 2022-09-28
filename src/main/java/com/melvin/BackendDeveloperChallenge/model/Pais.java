@@ -1,4 +1,4 @@
-package com.melvin.model;
+package com.melvin.BackendDeveloperChallenge.model;
 
 import lombok.Data;
 
